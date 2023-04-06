@@ -18,7 +18,7 @@ const Job = ({ data }) => {
         <Button
           variant="primary"
           onClick={() => {
-            dispatch({ type: "ADD_TO_FAVOURITEs", payload: data });
+            dispatch({ type: "ADD_TO_FAVOURITES", payload: data });
           }}
         >
           ADD TO FAVORITE
